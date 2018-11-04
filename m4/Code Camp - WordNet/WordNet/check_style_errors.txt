@@ -78,10 +78,25 @@ Starting audit...
 Audit done.
 Checkstyle ends with 44 errors.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Digraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Digraph.java:1:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:18:27: Variable 'adj' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:19:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:19:18: Variable 'indegree' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:20:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:20:13: Parameter V should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:20:17: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:21: Line is longer than 80 characters (found 112). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:44:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:47:15: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:48:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:51:22: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:87:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:87:26: Parameter v should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:90:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:90:25: Parameter v should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:104:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DiGraph.java:116:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 17 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\DirectedCycle.java:7: Line has trailing spaces. [RegexpSingleline]
 Audit done.
