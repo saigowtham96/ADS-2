@@ -1,35 +1,11 @@
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:8: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:35: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:36: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:39: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:44: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:46: Line is longer than 80 characters (found 106). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:55:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:56:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:59: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:60:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:61:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:96:21: Parameter item should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:106: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:108: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:111: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:115: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:116:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:118:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:118:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:118:29: Parameter first should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:118:40: 'first' hides a field. [HiddenField]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:122: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:122:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:123: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:123:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:125:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:126: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Bag.java:128: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 29 errors.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
 Starting audit...
 Audit done.
 Starting audit...
@@ -37,19 +13,7 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
-Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\SAP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-Audit done.
-Checkstyle ends with 1 errors.
-Starting audit...
-Audit done.
-Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\WordNet.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m4\Code Camp - WordNet\WordNet\WordNet.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
