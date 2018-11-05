@@ -1,10 +1,23 @@
 import java.util.NoSuchElementException;
-
+/**
+ * Class for graph.
+ */
 public class Graph {
+    /**
+     * { var_description }
+     */
     private static final String NEWLINE = System.getProperty("line.separator");
-
+    /**
+     * { integer variable for vertices }
+     */
     private final int V;
+    /**
+     * { integer variable for edges }
+     */
     private int E;
+    /**
+     * { bag array for storing adjacent edges }
+     */
     private Bag<Integer>[] adj;
 
     /**
