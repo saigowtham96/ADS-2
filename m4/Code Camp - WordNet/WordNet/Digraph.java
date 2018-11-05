@@ -1,125 +1,166 @@
-import java.util.Scanner;
 /**
- *class for digraph.
+ * Class for digraph.
  */
-class DiGraph {
+public class Digraph {
     /**
-     *the variable to store vetices.
+     * string for new line.
      */
-    private int vertices;
+    private static final String NEWLINE = System.getProperty("line.separator");
     /**
-    *the variable to store number.
-    *of edges.
-    */
-    private int edges;
-    /**
-     *the array to store bag of arrays.
+     * integer variable.
      */
-    public Bag<Integer>[] adj;
-    public int[] indegree;
-    DiGraph(int V) {
-        // if (V < 0) throw new IllegalArgumentException("Number of vertices in a Digraph must be nonnegative");
-        this.vertices = V;
-        this.edges = 0;
-        indegree = new int[vertices];
-        adj = (Bag<Integer>[]) new Bag[vertices];
-        for (int v = 0; v < vertices; v++) {
-            adj[v] = new Bag<Integer>();
+    private final int v;
+    /**
+     * integer variable.
+     */
+    private int e;
+    /**
+     * matrix of bag type.
+     */
+    private Bag<Integer>[] adj;
+    /**
+     * integer array.
+     */
+    private int[] indegree;
+    /**
+     * Initializes an empty digraph with <em>V</em> vertices.
+     * Time complexity : O(V).
+     * @param  ve the number of vertices
+     * @throws IllegalArgumentException if {@code V < 0}
+     */
+    public Digraph(final int ve) {
+        if (ve < 0) {
+            throw new IllegalArgumentException(
+                "Number of vertices in a Digraph must be nonnegative");
         }
-    }
-    /**
-     *the constructor is to initialize the input given.
-     *for the graph.
-     *
-     * @param      scan  The scan
-     */
-    DiGraph(final Scanner scan) {
-        vertices = Integer.parseInt(scan.nextLine());
-        // int edge = scan.nextInt();
-        indegree = new int[vertices];
-        adj = (Bag<Integer>[]) new Bag[vertices];
-        for (int i = 0; i < vertices; i++) {
+        this.v = ve;
+        this.e = 0;
+        indegree = new int[ve];
+        adj = (Bag<Integer>[]) new Bag[ve];
+        for (int i = 0; i < ve; i++) {
             adj[i] = new Bag<Integer>();
         }
-        for(int k = 0; k < vertices; k++) {
-            String[] tokens = scan.nextLine().split(" ");
-            int vertexOne  = Integer.parseInt(tokens[0]);
-            if(tokens.length > 2) {
-                for(int i = 1; i < tokens.length; i++) {
-                  addEdge(vertexOne, Integer.parseInt(tokens[i]));
-                }
-            } else if(tokens.length == 2) {
-                addEdge(vertexOne, Integer.parseInt(tokens[1]));
-            }
-        }
     }
     /**
-     *the method is to add an edge between.
-     *two vertices.
-     * @param      vertexOne  The vertex one
-     * @param      vertexTwo  The vertex two
-     * the time complexity is O(E + V)
-     * V is the vertices
-     * E denotes the number of edges we have in graph.
-     *.
-     */
-    public void addEdge(final int vertexOne, final int vertexTwo) {
-        adj[vertexOne].add(vertexTwo);
-        indegree[vertexTwo]++;
-        edges++;
-    }
-    /**
-     *returns the vertices of graph.
-     *
-     * @return vertices of graph
+     * Returns the number of vertices in this digraph.
+     *Time complexity : O(1).
+     * @return the number of vertices in this digraph
      */
     public int vertices() {
-        return vertices;
+        return v;
     }
+
     /**
-     *returns the edges of graph.
-     *
-     * @return edges of graph
+     * Returns the number of edges in this digraph.
+     *Time complexity : O(1).
+     * @return the number of edges in this digraph
      */
-    public int edges() {
-        return edges;
-    }
-    public int outdegree(int v) {
-        return adj[v].size();
-    }
-    public int indegree(int v) {
-        return indegree[v];
+    public int e() {
+        return e;
     }
     /**
-     *the method is to maintian a iteratable for.
-     *bag
-     *returns an interator.
+     * validate vertex method.
+     *Time complexity : O(1).
      * @param      vertex  The vertex
-     *
-     * @return  iterator.
      */
-    public Iterable<Integer> adj(final int vertex) {
-        return adj[vertex];
-    }
-    public String toString() {
-        StringBuilder s = new StringBuilder();
-        s.append(vertices + " vertices, " + edges + " edges " + "\n");
-        for (int v = 0; v < vertices; v++) {
-            s.append(String.format("%d: ", v));
-            for (int w : adj[v]) {
-                s.append(String.format("%d ", w));
-            }
-            s.append("\n");
+    private void validateVertex(final int vertex) {
+        if (vertex < 0 || vertex >= v) {
+            throw new IllegalArgumentException(
+                "vertex " + vertex + " is not between 0 and " + (v - 1));
         }
-        return s.toString();
     }
-    public DiGraph reverse() {
-        DiGraph reverse = new DiGraph(vertices);
-        for (int v = 0; v < vertices; v++) {
-            for (int w : adj(v)) {
-                reverse.addEdge(w, v);
+
+    /**
+     * Adds the directed edge v→w to this digraph.
+     *Time complexity : O(1).
+     * @param  ve the tail vertex
+     * @param  w the head vertex
+     * @throws IllegalArgumentException
+     *  unless both {@code 0 <= v < V} and {@code 0 <= w < V}
+     */
+    public void addEdge(final int ve, final int w) {
+        validateVertex(ve);
+        validateVertex(w);
+        adj[ve].add(w);
+        indegree[w]++;
+        e++;
+    }
+
+    /**
+     * Returns the vertices adjacent from vertex
+     *  {@code v} in this digraph.
+     *Time complexity : O(V).
+     * @param  ve the vertex
+     * @return the vertices adjacent from vertex
+     *  {@code v} in this digraph, as an iterable
+     * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     */
+    public Iterable<Integer> adj(final int ve) {
+        validateVertex(ve);
+        return adj[ve];
+    }
+
+    /**
+     * Returns the number of directed edges incident from vertex {@code v}.
+     * This is known as the <em>outdegree</em> of vertex {@code v}.
+     *Time complexity : O(1).
+     * @param  ve the vertex
+     * @return the outdegree of vertex {@code v}
+     * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     */
+    public int outdegree(final int ve) {
+        validateVertex(ve);
+        return adj[ve].size();
+    }
+    /**
+     * Returns the number of directed edges incident to vertex {@code v}.
+     * This is known as the <em>indegree</em> of vertex {@code v}.
+     *Time complexity : O(1).
+     * @param  ve the vertex
+     * @return the indegree of vertex {@code v}
+     * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     */
+    public int indegree(final int ve) {
+        validateVertex(ve);
+        return indegree[ve];
+    }
+
+    /**
+     * Returns the reverse of the digraph.
+     *Time complexity : O(V^2).
+     * @return the reverse of the digraph
+     */
+    public Digraph reverse() {
+        Digraph reverse = new Digraph(v);
+        for (int i = 0; i < v; i++) {
+            for (int w : adj(i)) {
+                reverse.addEdge(w, i);
             }
         }
         return reverse;
     }
+
+    /**
+     * Returns a string representation of the graph.
+     *Time complexity : O(V^2).
+     * @return the number of vertices
+     *  <em>V</em>, followed by the number of edges <em>E</em>,
+     *         followed by the <em>V</em> adjacency lists
+     */
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        s.append(v + " vertices, " + e + " edges " + NEWLINE);
+        for (int i = 0; i < v; i++) {
+            s.append(String.format("%d: ", i));
+            for (int w : adj[i]) {
+                s.append(String.format("%d ", w));
+            }
+            s.append(NEWLINE);
+        }
+        return s.toString();
+    }
 }
+
+
+
+

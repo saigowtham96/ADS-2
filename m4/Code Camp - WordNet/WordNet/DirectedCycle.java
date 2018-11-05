@@ -3,107 +3,78 @@
  */
 class DirectedCycle {
     /**
-     * { var_description }.
-     */ 
+     * boolean array for marking the visit of node.
+     */
     private boolean[] marked;
     /**
-     * // marked[v] = has vertex v been marked?.
-     */
-    private int[] edgeTo;
-    /**
-     * { var_description }.
+     * boolean array if the node is in the stack.
      */
     private boolean[] onStack;
     /**
-     * { var_description }.
+     * array for the edge of that node.
+     */
+    private int[] edgeTo;
+    /**
+     * stack object to store nodes.
      */
     private Stack<Integer> cycle;
     /**
      * Constructs the object.
+     * Time complexity is O(V).
+     * V is the number of vertices.
      *
-     * @param      g     { parameter_description }.
+     * @param      g     digraph object
      */
     DirectedCycle(final Digraph g) {
-        marked  = new boolean[g.V()];
-        onStack = new boolean[g.V()];
-        edgeTo  = new int[g.V()];
-        for (int v = 0; v < g.V(); v++) {
-            if (!marked[v] && cycle == null) {
-                dfs(g, v);
+        marked  = new boolean[g.vertices()];
+        onStack = new boolean[g.vertices()];
+        edgeTo  = new int[g.vertices()];
+        for (int vertices = 0; vertices < g.vertices(); vertices++) {
+            if (!marked[vertices] && cycle == null) {
+                dfs(g, vertices);
             }
         }
     }
     /**
-     * { function_description }.
+     * this method performs dfs for the given graph.
+     * Time complexity is O(E)
+     * E is the number of edges.
      *
-     * @param      g     { parameter_description }.
-     * @param      v     { parameter_description }.
+     * @param      g     object of digraph
+     * @param      vertices     number of vertice.
      */
-    private void dfs(final Digraph g, final int v) {
-        onStack[v] = true;
-        marked[v] = true;
-        for (int w : g.adj(v)) {
-
-            // short circuit if directed cycle found
+    private void dfs(final Digraph g, final int vertices) {
+        onStack[vertices] = true;
+        marked[vertices] = true;
+        for (int w : g.adj(vertices)) {
             if (cycle != null) {
                 return;
             } else if (!marked[w]) {
-                edgeTo[w] = v;
+                edgeTo[w] = vertices;
                 dfs(g, w);
             } else if (onStack[w]) {
                 cycle = new Stack<Integer>();
-                for (int x = v; x != w; x = edgeTo[x]) {
+                for (int x = vertices; x != w; x = edgeTo[x]) {
                     cycle.push(x);
                 }
                 cycle.push(w);
-                cycle.push(v);
-                assert check();
+                cycle.push(vertices);
             }
         }
-        onStack[v] = false;
-    }
+        onStack[vertices] = false;
 
+    }
     /**
      * Determines if it has cycle.
+     * Time complexity of this method is O(1)
      *
-     * @return     True if has cycle, False otherwise.
+     * @return     True if has cycle,
+     *             False otherwise.
      */
     public boolean hasCycle() {
-        if (cycle != null) {
-            return true;
-        }
-        return false;
-    }
-    /**
-     * { function_description }.
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public Iterable<Integer> cycle() {
-        return cycle;
-    }
-    /**
-     * { function_description }.
-     *
-     * @return     { description_of_the_return_value }.
-     */
-    private boolean check() {
-        if (hasCycle()) {
-            // verify cycle
-            int first = -1, last = -1;
-            for (int v : cycle()) {
-                if (first == -1) {
-                    first = v;
-                }
-                last = v;
-            }
-            if (first != last) {
-                System.out.println("cycle begins with %d and ends with %d\n"
-                                   + first + last);
-                return false;
-            }
-        }
-        return true;
+        return cycle != null;
     }
 }
+
+
 

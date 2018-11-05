@@ -1,38 +1,53 @@
+import java.util.ArrayList;
+/**
+ * Class for sap.
+ */
 public class SAP {
-    private Digraph gr;
-    private int ancestors;
-
-    // constructor takes a digraph (not necessarily a DAG)
-    public SAP(Digraph gr) {
-        this.gr = gr;
-        ancestors = -1;
+    /**
+     * graph object.
+     */
+    private Digraph graph;
+    /**
+     * Constructs the object.
+     *
+     * @param      gra     graph object.
+     */
+    public SAP(final Digraph gra) {
+        graph = gra;
     }
 
-    // length of shortest ancestral path between any vertex in v
-    // and any vertex in w; -1 if no such path
-    public int length(Iterable<Integer> v, Iterable<Integer> w) {
-        BreadthFirstDirectedPaths bfdv = new BreadthFirstDirectedPaths(gr, v);
-        BreadthFirstDirectedPaths bfdw = new BreadthFirstDirectedPaths(gr, w);
-        int min = Integer.MAX_VALUE;
-        for (int i = 0; i < gr.ver(); i++) {
-            if (bfdv.hasPathTo(i) && bfdw.hasPathTo(i)) {
-                int dist = bfdv.distTo(i) + bfdw.distTo(i);
-                if (dist < min) {
-                    ancestors = i;
-                    min = dist;
+    /**
+     * this method returns the shortest path of both vertices.
+     *
+     * @param      listOne  The list one
+     * @param      listTwo  The list two
+     *
+     * @return     returns the shortest path of both vertices.
+     */
+    public int[] length(final ArrayList<Integer> listOne,
+                        final ArrayList<Integer> listTwo) {
+        int min = graph.vertices();
+        int tempOne = 0;
+        for (int i = 0; i < listOne.size(); i++) {
+            for (int k = 0; k < listTwo.size(); k++) {
+                BreadthFirstDirectedPaths bfsOne =
+                    new BreadthFirstDirectedPaths(graph, listOne.get(i));
+                BreadthFirstDirectedPaths bfsTwo =
+                    new BreadthFirstDirectedPaths(graph, listTwo.get(k));
+                for (int j = 0; j < graph.vertices(); j++) {
+                    if (bfsOne.hasPathTo(j) && bfsTwo.hasPathTo(j)) {
+                        int sum = bfsOne.getDist(j) + bfsTwo.getDist(j);
+                        if (sum < min) {
+                            min = sum;
+                            tempOne = j;
+                        }
+                    }
                 }
-                
             }
         }
-        return min;
+        int[] result = {min, tempOne};
+        return result;
     }
 
-    // a common ancestor that participates in shortest
-    // ancestral path; -1 if no such path
-    public int ancestor(Iterable<Integer> v, Iterable<Integer> w) {
-        return ancestors;
-    }
 
-    // do unit testing of this class
-    // public static void main(String[] args)
 }
