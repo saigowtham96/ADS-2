@@ -10,8 +10,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- *  The <tt>Bag</tt> class represents a bag (or multiset) of 
- *  generic items. It supports insertion and iterating over the 
+ *  The <tt>Bag</tt> class represents a bag (or multiset) of
+ *  generic items. It supports insertion and iterating over the
  *  items in arbitrary order.
  *  <p>
  *  The <em>add</em>, <em>isEmpty</em>, and <em>size</em>  operation 
