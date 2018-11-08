@@ -56,7 +56,7 @@ public class SeamCarver {
      *
      * @return     { description_of_the_return_value }
      */
-    public double energy(int x, int y) {
+    public double energy(final int x,final int y) {
         if (x == 0 || y == 0 || picture.width() - 1 == x || picture.height() - 1 == y) {
             return 1000;
         } else {
