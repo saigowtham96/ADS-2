@@ -3,7 +3,12 @@ public class SeamCarver {
 	private Picture picture;
 	// create a seam carver object based on the given picture
 	public SeamCarver(Picture picture1) {
-		this.picture = picture1;
+		if (picture1 == null) {
+			throw new IllegalArgumentException("picture is null");
+		} else {
+			this.picture = picture1;
+		}
+		
 
 	}
 	// current picture
