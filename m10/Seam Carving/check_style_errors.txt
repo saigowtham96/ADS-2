@@ -223,8 +223,6 @@ Audit done.
 Checkstyle ends with 43 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:42: First sentence should end with a period. [JavadocStyle]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:51: First sentence should end with a period. [JavadocStyle]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:59:38: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:60: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:61:20: '1000' is a magic number. [MagicNumber]
@@ -239,7 +237,7 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:95:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\SeamCarver.java:95:36: Parameter seam should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 14 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]
