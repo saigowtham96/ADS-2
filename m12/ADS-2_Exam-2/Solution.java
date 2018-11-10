@@ -3,10 +3,12 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
-
 	/**.
-	 * {main method}
-	 *
+	 * main method Time complexity  is O(E)
+     * E is number of edges.
+     * V for printing graph.
+     * E+V for dijkstra's constructor.
+     * V for pathTo method.
 	 * @param      args  The arguments
 	 */
 	public static void main(String[] args) {
@@ -61,10 +63,6 @@ public class Solution {
 			} else {
 				System.out.println("No Path Found.");
 			}
-
-			
-
 	}
 }
-
 }
