@@ -47,7 +47,16 @@ public class Solution {
 			DijkstraSP object1 = new DijkstraSP(graph, Integer.parseInt(viaPaths[0]));
 			DijkstraSP object2 = new DijkstraSP(graph, Integer.parseInt(viaPaths[1]));
 			if(object1.hasPathTo(Integer.parseInt(viaPaths[1]))&&object2.hasPathTo(Integer.parseInt(viaPaths[2]))) {
-				System.out.println(object1.pathTo(Integer.parseInt(viaPaths[1]))+" "+object2.pathTo(Integer.parseInt(viaPaths[2])));
+				System.out.println(object1.distTo(
+                                       Integer.parseInt(
+                                           viaPaths[1])) + object2.distTo(
+                                       Integer.parseInt(viaPaths[2])));
+                System.out.println(object1.pathTo(
+                                       Integer.parseInt(
+                                           viaPaths[1])) + "" + object2.pathTo(
+                                       Integer.parseInt(
+                                           viaPaths[2])));
+           
 
 			} else {
 				System.out.println("No Path Found.");
