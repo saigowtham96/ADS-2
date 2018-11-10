@@ -45,8 +45,10 @@ public class Solution {
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
             String[] viaPaths = scan.nextLine().split(" ");
-            DijkstraSP object1 = new DijkstraSP(graph, Integer.parseInt(viaPaths[0]));
-            DijkstraSP object2 = new DijkstraSP(graph, Integer.parseInt(viaPaths[1]));
+            DijkstraSP object1 = new DijkstraSP(graph, Integer.parseInt(
+                viaPaths[0]));
+            DijkstraSP object2 = new DijkstraSP(graph, Integer.parseInt(
+                viaPaths[1]));
             if (object1.hasPathTo(
                 Integer.parseInt(
                     viaPaths[1])) && object2.hasPathTo(
