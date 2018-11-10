@@ -3,6 +3,12 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
+    /**
+     * Constructs the object.
+     */
+    Solution() {
+
+    }
     /**.
      * main method Time complexity  is O(E)
      * E is number of edges.
@@ -19,7 +25,9 @@ public class Solution {
         for (int i = 0; i < edges; i++) {
             String[] inputs = scan.nextLine().split(" ");
             graph.addEdge(new Edge(
-                            Integer.parseInt(inputs[0]), Integer.parseInt(inputs[1]),
+                            Integer.parseInt(
+                                inputs[0]), Integer.parseInt(
+                                inputs[1]),
                 Double.parseDouble(inputs[2])));
         }
         String caseToGo = scan.nextLine();
