@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**.
  * Class for solution.
  */
-public class Solution {
+final class Solution {
     /**.
      * main method Time complexity  is O(E)
      * E is number of edges.
