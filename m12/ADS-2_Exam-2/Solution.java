@@ -47,9 +47,10 @@ public class Solution {
             String[] viaPaths = scan.nextLine().split(" ");
             DijkstraSP object1 = new DijkstraSP(graph, Integer.parseInt(viaPaths[0]));
             DijkstraSP object2 = new DijkstraSP(graph, Integer.parseInt(viaPaths[1]));
-            if(object1.hasPathTo(
-                Integer.parseInt(viaPaths[1]))&&object2.hasPathTo(
-                                                    Integer.parseInt(viaPaths[2]))) {
+            if (object1.hasPathTo(
+                Integer.parseInt(
+                    viaPaths[1])) && object2.hasPathTo(
+                        Integer.parseInt(viaPaths[2]))) {
                 System.out.println(object1.distTo(
                                        Integer.parseInt(
                                            viaPaths[1])) + object2.distTo(

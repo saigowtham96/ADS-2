@@ -25,12 +25,8 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:37:62: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:48: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:49: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:50:15: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:51:47: '&&' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:51:49: '&&' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:52: Line is longer than 80 characters (found 85). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 7 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
