@@ -33,9 +33,11 @@ public class Solution {
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
             String[] paths = scan.nextLine().split(" ");
-            DijkstraSP object = new DijkstraSP(graph, Integer.parseInt(paths[0]));
-            if (object.hasPathTo(Integer.parseInt(paths[1]))){
-                System.out.println(object.distTo(Integer.parseInt(paths[1])));
+            DijkstraSP object = new DijkstraSP(graph, Integer.parseInt(
+                paths[0]));
+            if (object.hasPathTo(Integer.parseInt(paths[1]))) {
+                System.out.println(object.distTo(Integer.parseInt(
+                    paths[1])));
             } else {
                 System.out.println("No Path Found.");
             }
