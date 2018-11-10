@@ -7,7 +7,7 @@ public class Solution {
      * main method Time complexity  is O(E)
      * E is number of edges.
      * V for printing graph.
-     * E+V for dijkstra's constructor.
+     * E+V for dijkstra's algorithm.
      * V for pathTo method.
      * @param      args  The arguments
      */
