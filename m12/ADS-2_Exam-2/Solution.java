@@ -4,6 +4,12 @@ import java.util.Scanner;
  */
 final class Solution {
     /**.
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**.
      * main method Time complexity  is O(E)
      * E is number of edges.
      * V for printing graph.

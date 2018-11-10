@@ -18,9 +18,7 @@ Checkstyle ends with 4 errors.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m12\ADS-2_Exam-2\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
