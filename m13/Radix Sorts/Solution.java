@@ -11,7 +11,7 @@ final class Solution {
 
     }
     /**.
-     * 
+     *
      * { main method}
      *
      * @param      args  The arguments
@@ -27,5 +27,5 @@ final class Solution {
         LSD obj = new LSD();
         obj.sort(array, array[0].length());
         System.out.println(Arrays.toString(array));
-    }    
+    } 
 }
