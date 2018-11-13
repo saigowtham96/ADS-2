@@ -10,7 +10,7 @@ public class Solution {
 		int j =0;
 		for (String each : words) {
 			SuffixArray suffix = new SuffixArray(each);
-			for (int i = 0;i<words.length;i++) {
+			for (int i = 0;i<each.length();i++) {
 
 			tst.put(suffix.select(i),j++);
 
