@@ -7,22 +7,22 @@ public class BoggleSolver {
 		int count;
 
 		for (int i = 0; i<dictionary.length;i++) {
-			if(dictionary[i].length() == 0 || dictionary[i].length() == 1 || dictionary[i].length() == 2  ) {
+			if (dictionary[i].length() <= 2 ) {
 				count = 0;
 			} 
-			if(dictionary[i].length() == 3 || dictionary[i].length() == 4) {
+			if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
 				count = 1;
 			}
-			if(dictionary[i].length() == 5) {
+			if (dictionary[i].length() == 5) {
 				count = 2;
 			}
-			if(dictionary[i].length() == 6) {
+			if (dictionary[i].length() == 6) {
 				count = 3;
 			}
-			if(dictionary[i].length() == 7) {
+			if (dictionary[i].length() == 7) {
 				count = 5;
 			}
-			if(dictionary[i].length() >= 8) {
+			if (dictionary[i].length() >= 8) {
 				count = 11;
 			}
 
