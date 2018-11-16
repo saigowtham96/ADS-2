@@ -589,14 +589,14 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:38:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'getAllValidWords' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'getAllValidWords' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:38:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:38:50: Parameter board should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:42: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:43: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:44:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:44:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:44:28: Parameter word should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:45:51: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:47:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:54: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:45: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:46: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:47:9: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:47:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:47:28: Parameter word should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:48:51: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:50:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:57: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 37 errors.
 Starting audit...
