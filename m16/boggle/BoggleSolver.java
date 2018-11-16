@@ -1,8 +1,10 @@
+import java.util.Set;
 public class BoggleSolver {
 	// Initializes the data structure using the given array of strings as the dictionary.
 	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
-	TST<Integer> tst = new TST<Integer>();
+	private TrieST<Integer> dictionaryTrie;
 	public BoggleSolver(String[] dictionary) {
+        dictionaryTrie = new TrieST<Integer>();
 		
 		int count;
 
@@ -40,11 +42,11 @@ public class BoggleSolver {
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
 	public int scoreOf(String word) {
-		if (tst.contains(word) == false) {
+		if (dictionaryTrie.contains(word) == false) {
 			return 0;
 		}
 		else {
-			return tst.get(word);
+			return dictionaryTrie.get(word);
 		}
 	}
 }
