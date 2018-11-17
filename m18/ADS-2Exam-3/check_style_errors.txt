@@ -375,20 +375,18 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:2: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:112: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:113: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:131:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:131:9: Variable 'tst' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:137:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:163: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:174: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:174:74: Parameter k should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:189:58: Parameter k should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:111: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:112: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:130:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:130:9: Variable 'tst' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:136:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:162: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:173: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:173:74: Parameter k should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:188:58: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 10 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\TST.java:46: Line is longer than 80 characters (found 84). [LineLength]
