@@ -375,14 +375,10 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:132:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:138:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:175:44: Parameter words should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:176:23: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:191:57: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:132: First sentence should end with a period. [JavadocStyle]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:141:5: Redundant 'public' modifier. [RedundantModifier]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\TST.java:46: Line is longer than 80 characters (found 84). [LineLength]
