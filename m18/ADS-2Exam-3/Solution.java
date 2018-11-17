@@ -108,8 +108,10 @@ final class Solution {
      *
      * @return     { description_of_the_return_value }
      */
-    public static BinarySearchST<String, Integer> loadDictionary(final String file) {
-        BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
+    public static BinarySearchST<String, Integer> loadDictionary(
+        final String file) {
+        BinarySearchST<String, Integer>  st = new BinarySearchST<
+         String, Integer>();
         String[] words = toReadFile(file);
         for (int i = 0; i < words.length; i++) {
             String word = words[i].toLowerCase();

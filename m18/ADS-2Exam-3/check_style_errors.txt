@@ -376,17 +376,15 @@ Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:111: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:112: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:130:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:130:9: Variable 'tst' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:136:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:162: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:173: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:173:74: Parameter k should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:188:58: Parameter k should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:132:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:132:9: Variable 'tst' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:138:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:164: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:175: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:175:74: Parameter k should be final. [FinalParameters]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\Solution.java:190:58: Parameter k should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m18\ADS-2Exam-3\TST.java:46: Line is longer than 80 characters (found 84). [LineLength]
