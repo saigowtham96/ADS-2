@@ -129,7 +129,7 @@ final class Solution {
  * Class for t 9.
  */
 class T9 {
-    TST tst;
+    private TST tst;
     /**.
      * Constructs the object.
      *
