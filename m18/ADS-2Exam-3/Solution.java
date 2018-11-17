@@ -3,7 +3,13 @@ import java.util.*;
 /**.
  * Class for solution.
  */
-public class Solution {
+final class Solution {
+    /**.
+     * Constructs the object.
+     */
+	Solution() {
+
+	}
 	// Don't modify this method.
 	/**.
 	 * { main method }
@@ -148,8 +154,7 @@ class T9 {
      */
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
-		return null;
-		
+		return null;	
 	}
 	// return all possibilities(words), find top k with highest frequency.
 	/**.
