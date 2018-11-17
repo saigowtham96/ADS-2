@@ -43,7 +43,6 @@ final class Solution {
             break;
 
         case "potentialWords":
-            // input002.txt and output002.txt
             t9 = new T9(loadDictionary("/Files/t9.csv"));
             int count = 0;
             while (scan.hasNextLine()) {
