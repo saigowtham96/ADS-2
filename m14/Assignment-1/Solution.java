@@ -3,13 +3,13 @@ import java.util.Scanner;
  * Class for solution.
  */
 final class Solution {
-    /**
+    /**.
      * Constructs the object.
      */
     private Solution() {
 
     }
-    /**
+    /**.
      * {main method}
      *
      * @param      args  The arguments
@@ -44,3 +44,7 @@ final class Solution {
         return words;
     }
 }
+
+
+
+
