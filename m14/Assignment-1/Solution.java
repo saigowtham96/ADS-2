@@ -9,24 +9,29 @@ final class Solution {
     private Solution() {
 
     }
+    /**
+     * {main method}
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         String[] words = loadWords();
         //Your code goes here...
         TST<Integer> tst = new TST<Integer>();
         Scanner scan = new Scanner(System.in);
         String prefix = scan.nextLine();
-        int j =0;
+        int j = 0;
         for (String each : words) {
             SuffixArray suffix = new SuffixArray(each);
             for (int i = 0; i < each.length(); i++) {
 
-            tst.put(suffix.select(i),j++);
+            tst.put(suffix.select(i), j++);
 
         }
     }
          for (String each : tst.keysWithPrefix(prefix)) {
             System.out.println(each);
-        }   
+        }  
     }
     /**.
      * Loads words.
