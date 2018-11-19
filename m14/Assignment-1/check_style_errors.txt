@@ -180,19 +180,16 @@ Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:6:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:12:24: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:15:40: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:15:41: '<' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:15:42: '<' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:15:56: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:17:50: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:18:16: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:21:28: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:21:29: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:21:30: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:21:44: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:23:38: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 9 errors.
 Starting audit...
 Audit done.
 Starting audit...
