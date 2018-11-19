@@ -18,7 +18,7 @@ final class Solution {
         int j =0;
         for (String each : words) {
             SuffixArray suffix = new SuffixArray(each);
-            for (int i = 0;i<each.length();i++) {
+            for (int i = 0; i < each.length(); i++) {
 
             tst.put(suffix.select(i),j++);
 
@@ -26,9 +26,7 @@ final class Solution {
     }
          for (String each : tst.keysWithPrefix(prefix)) {
             System.out.println(each);
-        }
-    
-
+        }   
     }
     /**.
      * Loads words.
