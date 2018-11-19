@@ -10,8 +10,10 @@ final class Solution {
 
     }
     /**.
+     * complexity O(M*N)
+     * M number of words in file
+     * N word length.
      * {main method}
-     *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
