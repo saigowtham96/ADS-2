@@ -185,16 +185,14 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:4:33: Parameter args should be final. [FinalParameters]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:10:24: '=' is not followed by whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:13:40: ';' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:13:41: '<' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:13:42: '<' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:13:56: ';' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:15:50: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:26:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:13:55: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:14:58: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m14\Assignment-1\Solution.java:20:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 Audit done.
 Starting audit...
