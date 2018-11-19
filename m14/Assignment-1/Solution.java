@@ -31,7 +31,7 @@ final class Solution {
     }
          for (String each : tst.keysWithPrefix(prefix)) {
             System.out.println(each);
-        }  
+        }
     }
     /**.
      * Loads words.
