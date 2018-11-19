@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**.
+ * Class for solution.
+ */
 public class Solution {
 	public static void main(String[] args) {
 		String[] words = loadWords();
@@ -22,7 +24,11 @@ public class Solution {
     
 
 	}
-
+    /**.
+     * Loads words.
+     *
+     * @return     { description_of_the_return_value }
+     */
 	public static String[] loadWords() {
 		In in = new In("/Files/dictionary-algs4.txt");
 		String[] words = in.readAllStrings();
