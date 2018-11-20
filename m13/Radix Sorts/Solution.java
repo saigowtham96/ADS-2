@@ -11,9 +11,8 @@ final class Solution {
 
     }
     /**.
-     *
-     * { main method}
-     *
+     *this method performs sorting of the array of strings.
+     *Time complexity is O(w*N).
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
