@@ -42,11 +42,6 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:58:5: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:64:13: '4' is a magic number. [MagicNumber]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:65:13: '4' is a magic number. [MagicNumber]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:70:47: '*' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:70:48: '*' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:70:49: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:70:50: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:76: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:81:24: Parameter filename should be final. [FinalParameters]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:85: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:85: Line is longer than 80 characters (found 100). [LineLength]
@@ -58,7 +53,6 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:95: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:96: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:97: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:97: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:109:24: Parameter m should be final. [FinalParameters]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:109:28: 'm' hides a field. [HiddenField]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:109:31: Parameter n should be final. [FinalParameters]
@@ -88,9 +82,8 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:211:14: '{' is followed by whitespace. [NoWhitespaceAfter]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:212:14: '{' is followed by whitespace. [NoWhitespaceAfter]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:213:14: '{' is followed by whitespace. [NoWhitespaceAfter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleBoard.java:226: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 59 errors.
+Checkstyle ends with 52 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleGame.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleGame.java:4: Line has trailing spaces. [RegexpSingleline]
@@ -560,9 +553,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 465 errors.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\BoggleSolver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
@@ -744,14 +735,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\Solution.java:30: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\Solution.java:46: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
@@ -1120,6 +1104,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 183 errors.
 Starting audit...
+[ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\TrieST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\TrieST.java:7: First sentence should end with a period. [JavadocStyle]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\TrieST.java:11: First sentence should end with a period. [JavadocStyle]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\TrieST.java:15: First sentence should end with a period. [JavadocStyle]
@@ -1221,4 +1206,4 @@ Starting audit...
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\TrieST.java:231: 'for' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\git files\testing-repository\ADS-2\ADS-2\m16\boggle\TrieST.java:232: 'if' construct must use '{}'s. [NeedBraces]
 Audit done.
-Checkstyle ends with 100 errors.
+Checkstyle ends with 101 errors.
